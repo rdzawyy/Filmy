@@ -5,19 +5,24 @@ function App() {
   return (
     <div className="App">
       <form>
-      <div>
-        <div class="mb-3">
-          <label for="film" class="form-label">Tytuł filmu: </label>
-          <input type="text" class="form-control" id="film"/>
+        <div>
+          <div class="mb-3">
+            <label for="film" class="form-label">Tytuł filmu: </label>
+            <input type="text" class="form-control" id="film" />
+          </div>
+          
         </div>
-        <div id="rodzajfilmu" class="form-text">Wybierz rodzaj filmu</div>
-          <input type="password" class="form-control" id="exampleInputPassword1"/>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-            <label class="form-check-label" for="exampleCheck1">Sprawdź!</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Wybierz rodzaj</option>
+          <option></option>
+          <option value="1">Komedia</option>
+          <option value="2">Obyczajowy</option>
+          <option value="3">Sensacyjny</option>
+          <option value="4">Horror</option>
+        </select>
+        <div>
+        <button type="submit" class="btn btn-primary">Zatwierdź</button></div>.
       </form>
     </div>
   );
