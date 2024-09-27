@@ -22,7 +22,7 @@ function App() {
           <option value="4">Horror</option>
         </select>
         <div>
-        <button type="submit" class="btn btn-primary">Zatwierdź</button></div>.
+        <button type="submit" class="btn btn-primary">Dodaj</button></div>.
       </form>
     </div>
   );
